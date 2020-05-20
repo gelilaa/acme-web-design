@@ -25,6 +25,14 @@ body{
   color:#ffffff;
 }
 
+.dark{
+  padding:15px;
+  background:#35424a;  /* this is 6th about branch*/
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 
 header{
         background:#35424a;
@@ -134,4 +142,20 @@ header{
         background-color:#e8491d;
         text-align: center;
         
+      }
+      aside#sidebar{
+        float:right;
+        width:30%;
+        margin-top:10px;
+      }
+      
+      aside#sidebar .quote input, aside#sidebar .quote textarea{
+        width:90%;
+        padding:5px;
+      } /* this is 7th branch*/
+      
+        
+      article#main-col{
+        float:left;
+        width:65%;
       }
