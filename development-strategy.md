@@ -48,7 +48,7 @@ In this branch I add a title, header and navigation for the page and style it.
 
 ## 2-showcase 
 
-In this branch I add the main part of the website add a background image and style it
+In this branch I add  a section for a background image and style it.
 
 ### HTML
 - Add html mark-up sections
@@ -62,7 +62,7 @@ For some reason my background image was not accepted on the css file. So I put i
 
 ## 3-newsletter
 
-Here the padding for the background has been changed.
+Here I add a section for the newsletter and style it.
 ### HTML
 
 Add html mark up
