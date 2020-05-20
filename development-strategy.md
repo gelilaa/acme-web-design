@@ -2,10 +2,10 @@
 
 > `Acme-web-design`
 
-write a short description of your project:
+
 
 - This is responsive mobile friendly HTML5 website for a fictional web design company.
-- A web-site is a very best way to advertise the companies product and services this easy 
+- A web-site is a very best way to advertise the companies product and services.
 
 
 ## Wireframe
@@ -27,33 +27,92 @@ write a short description of your project:
 - Write initial, basic README
 - Turn on GitHub Pages
 
-## 1. about
+##  About
 
-**full user story description**
 The project is build for the purpose of learning Incremental development with html and css files.
 
-### Repo
+# Branches
 
-what branch(es) did you work on?
+### 1-header
+
+In this branch I add a title, header and navigation for the page and style it.
 
 ### HTML
 
-what did you change in the HTML and why?
+- Header html mark-up
 
 ### CSS
 
-what did you change in the CSS and why?
+- Header CSS styling body, container, header and  global **ul** styling 
 
-## 2. ...
 
-...
+## 2-showcase 
 
-...
+In this branch I add the main part of the website add a background image and style it
 
-## Finishing Touches
+### HTML
+- Add html mark-up sections
+> Add background image
+### CSS
+Showcase css 
 
-- Write final, complete README:
-  - [makeareadme.com](https://www.makeareadme.com/)
-  - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-  - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-- Validate code to check for any last mistakes
+For some reason my background image was not accepted on the css file. So I put inline styling with the element.
+
+ 
+
+## 3-newsletter
+
+Here the padding for the background has been changed.
+### HTML
+
+Add html mark up
+### CSS
+Add css styling, add global button styling
+
+## 4-boxes
+
+Here I add pictures and boxes
+>3 images
+
+### HTML
+
+Html mark-up
+
+### CSS 
+css styling for the boxes 
+
+## 5-footers 
+Here I add the footer and the stylings
+### HTML
+
+footer mark-up
+### CSS
+
+css styling for the footer
+
+
+## 6-about us
+Here I add the about.html
+### HTML
+
+html mark-up for about.html 
+
+### CSS
+
+css stylings and global class “dark”
+
+## 7-services
+Here I add the page services.html
+
+### HTML
+
+html mark-up for services.html
+
+### CSS
+css stylings and css @media rule.
+
+## 8-touch ups 
+In this branch I add some extra css stylings to make the website responsive.
+
+
+
