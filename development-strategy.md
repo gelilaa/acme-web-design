@@ -1,20 +1,25 @@
 # Development Strategy
 
-> `name-of-project`
+> `Acme-web-design`
 
 write a short description of your project:
-- who would want to use it?
-- why would they want to use it?
+
+- This is responsive mobile friendly HTML5 website for a fictional web design company.
+- A web-site is a very best way to advertise the companies product and services this easy 
+
 
 ## Wireframe
 
 <!-- include a wireframe for your project in this repository, and display it here -->
+
 <!-- wireframe.cc is a good site for getting started with wireframes -->
-![wireframe]()
 
-## 0. Set-Up
+![wireframe](wireframe.gif)
 
-__A User can see my initial repository and live demo__
+## Set-Up
+
+**A User can see my initial [repository](https://github.com/gelilaa/acme-web-design) and [live]( https://gelilaa.github.io/acme-web-design/.) demo**
+
 
 ### Repo
 
@@ -22,9 +27,10 @@ __A User can see my initial repository and live demo__
 - Write initial, basic README
 - Turn on GitHub Pages
 
-## 1. __
+## 1. about
 
-__full user story description__
+**full user story description**
+The project is build for the purpose of learning Incremental development with html and css files.
 
 ### Repo
 
