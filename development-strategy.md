@@ -109,10 +109,9 @@ Here I add the page services.html
 html mark-up for services.html
 
 ### CSS
-css stylings and css @media rule.
+css stylings for services.html
 
 ## 8-touch ups 
-In this branch I add some extra css stylings to make the website responsive.
-
+This branch is created from the 7-services branch to add extra touch-ups to make the whole website responsive and is merged to the master branch.
 
 
