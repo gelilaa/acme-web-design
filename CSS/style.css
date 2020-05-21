@@ -80,6 +80,7 @@ header{
       #showcase{
 
         min-height:400px;
+        background-image: url("img/bg.jpg");
         background-size: cover;
         overflow:hidden;
         background-repeat:no-repeat;
