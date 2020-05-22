@@ -27,7 +27,7 @@ body{
 
 .dark{
   padding:15px;
-  background:#35424a;  /* this is 6th about branch*/
+  background:#35424a;  
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -83,7 +83,7 @@ header{
         background-size: cover;
         overflow:hidden;
         background-repeat:no-repeat;
-        background-position: 0px -300px;
+        background-position: 0px -400px;
         text-align:center;
         color: rgb(255, 255, 255);
     
