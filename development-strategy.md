@@ -31,87 +31,163 @@
 
 The project is build for the purpose of learning Incremental development with html and css files.
 
-# Branches
 
-### 1-header
+## 1. User Story: header
 
-In this branch I add a title, header and navigation for the page and style it.
+__This section contains  introductory content of the website. For instance, the logo of the company and navigation of the website. The section will be constant for the other pages also__
+
+### Branches
+
+- This user story was developed on a branch called `1-header’`
+- It was merged to `master` when the feature was finished.
+
 
 ### HTML
 
-- Header html mark-up
+ -	Add meta name:- viewport, description, keywords, Author
+-	Add title 
+-	Add link for CSS styling sheet
+-	Add header  
+- A pleasant footer
 
 ### CSS
 
-- Header CSS styling body, container, header and  global **ul** styling 
+- Header layout styling 
+- Body layout styling 
+- . container class
+- global ul  layout styling
 
+## 2. User Story: showcase
 
-## 2-showcase 
+__This section contains the catch-phrase of the company or the slogan of the company with a simple introduction of the company and a background picture.__
 
-In this branch I add  a section for a background image and style it.
+> The background picture is only displayed in the index.html (home) page
+### Branches
 
-### HTML
-- Add html mark-up sections
-> Add background image
-### CSS
-Showcase css 
-
-For some reason my background image was not accepted on the css file. So I put inline styling with the element.
-
- 
-
-## 3-newsletter
-
-Here I add a section for the newsletter and style it.
-### HTML
-
-Add html mark up
-### CSS
-Add css styling, add global button styling
-
-## 4-boxes
-
-Here I add pictures and boxes
->3 images
+- This user story was developed on a branch called `2-showcase’`
+- It was merged to `master` when the feature was finished.
 
 ### HTML
-
-Html mark-up
-
-### CSS 
-css styling for the boxes 
-
-## 5-footers 
-Here I add the footer and the stylings
-### HTML
-
-footer mark-up
+- Inline background-image 
+- Section element
+- some nice text in the section introducing users to this web page.
 ### CSS
 
-css styling for the footer
+- Text styling 
+- .showcase class styling
+- Background image layout styling
 
+## 3. User Story: newsletter
 
-## 6-about us
-Here I add the about.html
+__This section contains a newsletter subscription box for the client. The section will be constant for the other pages with a slight changes of position.__
+
+### Branches
+
+- This user story was developed on a branch called `3-newsletter’`
+- It was merged to `master` when the feature was finished.
+
 ### HTML
+- section element
+- Add input form for the subscription
+- Add a subscribe button
 
-html mark-up for about.html 
 
 ### CSS
 
-css stylings and global class “dark”
+- Add styling for the new section element, newsletter id
+- Add global button_1 class styling
 
-## 7-services
-Here I add the page services.html
+## 4. User Story: boxes
+
+__This section briefly explains the services of the company with some noticeable pictures and small explanatory texts under.__
+
+
+### Branches
+
+- This user story was developed on a branch called `4-boxes`
+- It was merged to `master` when the feature was finished.
 
 ### HTML
 
-html mark-up for services.html
+- 3 boxes each containing picture and text
+
 
 ### CSS
-css stylings for services.html
+- Layout styling for the section element and images boxes id and .box class
+- Layout styling for the text.
 
-## 8-touch ups 
+## 5. User Story: footers
+
+__This section contains the logo of the company and copy right confirmation. Just like the header this section is constant on every page of the website.__
+
+
+### Branches
+
+- This user story was developed on a branch called `5-footers`
+- It was merged to `master` when the feature was finished.
+
+### HTML
+
+- Add the name of the company
+- Add the year of the design
+
+
+
+### CSS
+- Text layout styling
+- Background colour styling
+
+## 6. User Story: About
+
+__This template contains explanation about the company’s story, what they do and who they are.__
+
+
+### Branches
+
+- This user story was developed on a branch called `6-aboutus`
+- It was merged to `master` when the feature was finished.
+.
+
+### HTML
+
+- Create about.html templet
+- Copy paste the header, footer ,newsletter from index.html
+- Add title  About
+- Add section and Aside
+
+
+
+### CSS
+- CSS stylings for the new section element and Aside sidebar id
+- global class “dark”
+
+## 7. User Story: Services
+
+__This template contains the detailed information over the services of the company, prices and contact section for getting a quote.__
+
+
+### Branches
+
+- •	This user story was developed on a branch called `7-services`
+•	It was merged to `master` when the feature was finished.
+
+
+
+### HTML
+
+- Create about.html templet
+- Copy paste the header, footer ,newsletter from index.html
+- Add section element
+- Add aside input form for getting a quote and send button.
+
+
+
+### CSS
+- Re-use the side bar id, and the dark and button_1  global classes
+- Add extra . quote class to style the input  
+
+
+
+### 8-touch ups
 This branch is created from the 7-services branch to add extra touch-ups to make the whole website responsive and is merged to the master branch.
-
 
