@@ -2,10 +2,10 @@
 
 > `Acme-web-design`
 
-
-
 - This is responsive mobile friendly HTML5 website for a fictional web design company.
 - A web-site is a very best way to advertise the companies product and services.
+- The project is build for the purpose of learning Incremental development with html and css files.
+
 
 
 ## Wireframe
@@ -21,20 +21,20 @@
 **A User can see my initial [repository](https://github.com/gelilaa/acme-web-design) and [live]( https://gelilaa.github.io/acme-web-design/.) demo**
 
 
-### Repo
+### Repo Master Branch
 
-- Generate from Template
+- Generate from a Template
+- Clone the repo
 - Write initial, basic README
+- Write `development-strategy.md` file
+- Add a wireframe or a design of html layout
+- Push the change
 - Turn on GitHub Pages
 
-##  About
 
-The project is build for the purpose of learning Incremental development with html and css files.
+## 1. User Story: 
 
-
-## 1. User Story: header
-
-__This section contains  introductory content of the website. For instance, the logo of the company and navigation of the website. The section will be constant for the other pages also__
+___As a site visitor, I want to know what the company's logo is___
 
 ### Branches
 
@@ -43,43 +43,36 @@ __This section contains  introductory content of the website. For instance, the 
 
 
 ### HTML
-
- -	Add meta name:- viewport, description, keywords, Author
--	Add title 
--	Add link for CSS styling sheet
--	Add header  
-- A pleasant footer
+- Put up a title on head and other meta families
+- Put up title content and navigation on header
 
 ### CSS
 
-- Header layout styling 
-- Body layout styling 
-- . container class
-- global ul  layout styling
+- Create a separate css file
+- Add styling on new elements
 
-## 2. User Story: showcase
+## 2. User Story: introduction
 
-__This section contains the catch-phrase of the company or the slogan of the company with a simple introduction of the company and a background picture.__
+___As a site visitor, I want to know what their business is and the standout point of this business_
 
-> The background picture is only displayed in the index.html (home) page
+
 ### Branches
 
 - This user story was developed on a branch called `2-showcase’`
 - It was merged to `master` when the feature was finished.
 
 ### HTML
-- Inline background-image 
-- Section element
-- some nice text in the section introducing users to this web page.
+
+- Some nice text in the section introducing users to this web page (persuasive words, such as affordable)and a picture.
+
+
 ### CSS
 
-- Text styling 
-- .showcase class styling
-- Background image layout styling
+Add styling on new elements 
 
 ## 3. User Story: newsletter
 
-__This section contains a newsletter subscription box for the client. The section will be constant for the other pages with a slight changes of position.__
+__As a site visitor, I want to know what if there is a way to receive an update on their services___
 
 ### Branches
 
@@ -87,19 +80,16 @@ __This section contains a newsletter subscription box for the client. The sectio
 - It was merged to `master` when the feature was finished.
 
 ### HTML
-- section element
-- Add input form for the subscription
-- Add a subscribe button
+Add a newsletters section: users can receives updates about the company as an option.
 
 
 ### CSS
 
-- Add styling for the new section element, newsletter id
-- Add global button_1 class styling
+- Add styling for the new section element, 
 
-## 4. User Story: boxes
+## 4. User Story: skills
 
-__This section briefly explains the services of the company with some noticeable pictures and small explanatory texts under.__
+__As a site visitor, I want to know what briefly the skills of the company are.__
 
 
 ### Branches
@@ -109,16 +99,15 @@ __This section briefly explains the services of the company with some noticeable
 
 ### HTML
 
-- 3 boxes each containing picture and text
+- Add skills section 3 boxes each containing picture and text
 
 
 ### CSS
-- Layout styling for the section element and images boxes id and .box class
-- Layout styling for the text.
+-Add styling for the new section element and pictures
 
-## 5. User Story: footers
+## 5. User Story:design year
 
-__This section contains the logo of the company and copy right confirmation. Just like the header this section is constant on every page of the website.__
+__As a site visitor, I want to know what the websites year of the design is__
 
 
 ### Branches
@@ -128,18 +117,16 @@ __This section contains the logo of the company and copy right confirmation. Jus
 
 ### HTML
 
-- Add the name of the company
-- Add the year of the design
+- Put up a copyright to symbolize an official page of the company on footer and year of the webdesign 
 
 
 
 ### CSS
-- Text layout styling
-- Background colour styling
+ - Add styling on new elements
 
 ## 6. User Story: About
 
-__This template contains explanation about the company’s story, what they do and who they are.__
+___As a site visitor, I want to know about the company’s story, what they do and who they are and how I can reach them__
 
 
 ### Branches
@@ -150,20 +137,18 @@ __This template contains explanation about the company’s story, what they do a
 
 ### HTML
 
-- Create about.html templet
-- Copy paste the header, footer ,newsletter from index.html
-- Add title  About
-- Add section and Aside
+- Create about.html template
+- Put up title content
+-  Add aside what do we do section
 
 
 
 ### CSS
-- CSS stylings for the new section element and Aside sidebar id
-- global class “dark”
+- Add styling on new elements
 
 ## 7. User Story: Services
 
-__This template contains the detailed information over the services of the company, prices and contact section for getting a quote.__
+___As a site visitor, I want to know the services of the company, prices and contact section for getting a quote.__
 
 
 ### Branches
@@ -175,19 +160,17 @@ __This template contains the detailed information over the services of the compa
 
 ### HTML
 
-- Create about.html templet
-- Copy paste the header, footer ,newsletter from index.html
-- Add section element
-- Add aside input form for getting a quote and send button.
+- Create about.html template
+- Create Service Packages 
+- Create quotation request box .
 
 
 
 ### CSS
-- Re-use the side bar id, and the dark and button_1  global classes
-- Add extra . quote class to style the input  
+-Add styling on new elements
 
-
-
-### 8-touch ups
-This branch is created from the 7-services branch to add extra touch-ups to make the whole website responsive and is merged to the master branch.
+## Finishing Touches
+    1. Add another branch named `8-touchups` from the branch `7-services`to Start the responsive design, then merge it!
+    2. Next, validate the code to check for any last mistakes, fix it.
+    3. complete README on master.
 
