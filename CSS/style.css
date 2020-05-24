@@ -78,7 +78,7 @@ header{
         font-weight:bold;
       }
       #showcase{
-        background-image: url(/img/bg.jpg);
+        background-image: url(https://gelilaa.github.io/acme-web-design/img/bg.jpg);
         min-height:400px;
         background-size: cover;
         background-repeat:no-repeat;
